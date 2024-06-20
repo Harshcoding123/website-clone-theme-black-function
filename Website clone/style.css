@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#header{
+    width: 100%;
+    height: 4rem;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+#logo{
+    height: 60px;
+    margin-left: 7rem;
+}
+
+#link{
+    list-style: none;
+    align-items: center;
+    justify-content: end;
+    display: flex;
+    font-size: smaller;
+    gap: 50px;
+    /* background-color: red; */
+    margin-left: 34rem;
+    /* margin-right: 2rem; */
+}
+a:hover{
+    color: #ff4321;
+}
+#text{
+    /* font-size: 30px; */
+    padding-left: 7rem;
+    width: 40%;
+    height: 15rem;
+    /* background-color: blueviolet; */
+    margin-top: 13rem;
+    
+}
+#h1yellow{
+   
+    color: #ff4321;
+   
+}
+#maintext{
+       font-size: 30px;
+    display: flex;
+    gap: 10px;
+}
+#para{
+    margin-top: 10px;
+}
+#box{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    height: 2rem;
+    /* background-color: blue; */
+    background: #212121;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #fff;
+
+}
+#bodypart{
+    display: flex;
+    /* background-color: #ff4321; */
+}
+#image{
+    margin-left: 5rem;
+}
+#girlImage{
+    height: 39rem;
+    position: relative;
+}
+#backImage{
+    position: absolute;
+    height: 40rem;
+}
+#icons{
+    
+    display: flex;
+    gap: 15px;
+    
+    margin-top: 5rem;
+
+}
+#icon1{
+    cursor: pointer;
+}
+#icon2{
+    cursor: pointer;
+}
+#icon3{
+    cursor: pointer;
+}
+.moon{
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
